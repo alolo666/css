@@ -1,0 +1,247 @@
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    display: flex;
+    max-width: calc(100% - 3.6em);
+    justify-content: space-between;
+}
+.logo .navbar-brand{
+    font-size: 16px;
+    white-space: normal; 
+    margin: 0; 
+    max-width: 50%; 
+}
+
+.logo img {
+    max-width: 80%;
+    height: 55px;
+margin-left: 15px;
+}
+/* header-section */
+.header-section .cccam-information {
+    position: relative;
+    color: #FFF;
+    
+}
+
+.header-section .cccam-information .price-unit{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: -40px;
+    left: calc(50% - 40px);
+    z-index: 10;
+    border: 3px #fff solid;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-section .cccam-information ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.header-section .cccam-information ul li{
+    display: block;
+    height: 40px;
+    line-height: 2;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    text-align: center;
+}
+.header-section .cccam-information ul li:last-child{
+    
+    border-bottom: none;
+    
+}
+/* header-section */
+
+
+.cccam-table table {
+    max-width: 450px;
+}
+
+.mgcam-table table {
+    max-width: 740px;
+}
+
+.get-cccam .btn,
+.get-mgcam .btn,
+.get-cccam-index .btn,
+.get-mgcam-index .btn {
+    max-width: 300px;
+}
+
+.get-cccam .btn,
+.get-cccam-index .btn,
+.get-mgcam-index .btn,
+.get-mgcam .btn {
+    width: 300px;
+    height: 40px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+.get-cccam-index .btn span,
+.get-mgcam-index .btn span {
+    width: 0;
+    height: 100%;
+    display: block;
+    background-color: #3498db;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    line-height: 2.4;
+}
+
+.get-cccam .btn,
+.get-mgcam .btn {
+    background-color: #3498db;
+    color: #fff;
+    width: 300px;
+    height: 40px;
+}
+
+.get-cccam .btn:hover,
+.get-mgcam .btn:hover {
+    background-color: #212121;
+    color: #fff;
+}
+
+
+#alaba-table h2.title{
+    text-align: right;
+}
+#pro-adsense {
+width: 100%;
+opacity: 0;
+}
+#ad-popup {
+    background:#0000002b; 
+    color:#000; 
+    border:0px solid #000; 
+    position:fixed; 
+    bottom:0; 
+    left:calc(50% - 150px); 
+    width:300px; 
+    height:250px; 
+    display:flex;
+    z-index:50000
+}
+#ad-popup a {
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 15px;
+    background:#cdcccc; 
+    color:red; 
+    font-weight:bold; 
+    text-decoration:none;     
+    z-index:1000; 
+    padding :0px 10px
+}
+#ad-popup a:hover {
+    background:#565555; 
+    color:#fff
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.cta--content .cta-desc h6 i {
+    color: #1c66de;
+}
+
+.header-section .row{
+    flex-direction: row-reverse;
+
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#30302f;
+    color:#4b4c4d;
+}
+  
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+.footer-basic li {
+    padding:0 10px;
+  }
+  
+.footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+.footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+.footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+}
+  
+.footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:25%;
+    border:2px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+    color: #fff;  
+}
+
+.footer-basic .social > a:hover {
+    opacity:0.9; 
+    background-color : #fff;
+    border: solid rgb(255, 255, 255);
+}
+.footer-basic .social > a:first-of-type {
+    background-color: #ff0000;
+
+}
+.footer-basic .social > a:nth-of-type(2) {
+    background-color: #1c66de;
+}
+.footer-basic .social > a:last-of-type {
+    background-color: #0072ff;
+}
+
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}
+
+
